@@ -1,0 +1,14 @@
+
+server.port: 9100
+server.servlet.context-path: /api
+
+BASE_LOCATION: D:\aliyun_workspace\java_food
+DB_NAME: java_food
+
+
+File:
+  uploadPath: ${BASE_LOCATION}\server\upload
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
